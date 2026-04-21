@@ -1,0 +1,10 @@
+top:
+  - class_name: seamless-card
+    id_name:
+    name:
+    icon:
+    order:
+    html: |
+      <div style="height: 250px">
+      <iframe src="/DO_NOT_render/cosmoscope/cosmoscope_trim.html" frameborder="no" style="width: 100%; height: 100%"></iframe>
+      </div>

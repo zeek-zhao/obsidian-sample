@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  hexo:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: hexo_blog
+    restart: always
+    volumes:
+      - "${HOME}:${HOME}"
+      - /var/run/docker.sock:/var/run/docker.sock
+    ports:
+      - "4000:4000"
+      - "15000:22"
+    environment:
+      - NODE_ENV=development
+      - TZ=Asia/Shanghai
+      - USER_INFO=${USER_INFO}
+      - GROUP_INFO=${GROUP_INFO}
+    tty: true
+    working_dir: /app/src
+    user: root
