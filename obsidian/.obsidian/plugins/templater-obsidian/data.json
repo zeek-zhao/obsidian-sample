@@ -1,0 +1,51 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "Extras/Templates",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": true,
+  "enable_system_commands": true,
+  "shell_path": "/bin/bash",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "Atlas/Kanban",
+      "template": "Extras/Templates/看板-模版.md"
+    },
+    {
+      "folder": "Sources/Articles",
+      "template": "Extras/Templates/文章笔记-模板.md"
+    },
+    {
+      "folder": "Sources/Books",
+      "template": "Extras/Templates/读书笔记-模板.md"
+    },
+    {
+      "folder": "Sources/Courses",
+      "template": "Extras/Templates/课程笔记-模板.md"
+    },
+    {
+      "folder": "Sources/Podcasts",
+      "template": "Extras/Templates/播客笔记-模板.md"
+    },
+    {
+      "folder": "Sources/Videos",
+      "template": "Extras/Templates/视频笔记-模板.md"
+    },
+    {
+      "folder": "Work/rws",
+      "template": "Extras/Templates/RWS-模板.md"
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [],
+  "startup_templates": [],
+  "enable_ribbon_icon": true
+}

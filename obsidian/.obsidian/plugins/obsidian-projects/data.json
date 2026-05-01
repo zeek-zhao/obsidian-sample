@@ -1,0 +1,519 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "🧰 本库指南",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "sortField": "date created",
+            "sortAsc": true,
+            "fieldConfig": {
+              "title": {
+                "hide": true
+              },
+              "path": {
+                "hide": true
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "69c79ea8-8601-4906-b81a-69bcccc14d77",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "49aaddd6-5e6e-4f0d-8149-bc9b14503403",
+          "name": "Board",
+          "type": "board"
+        },
+        {
+          "config": {
+            "interval": "month",
+            "dateField": "date modified"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "41c93621-b188-4f7f-8b62-998b5d006fe1",
+          "name": "Calendar",
+          "type": "calendar"
+        }
+      ],
+      "name": "本库指南",
+      "id": "5b2e982b-3384-43c2-94d8-4ac66a05d8d5"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Spaces/2-Area/运动与健康",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "sortField": "name",
+            "sortAsc": true,
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "545e2139-bd60-4c9d-9ead-3e11988332d0",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "f8de02b9-2620-4bb4-8f6d-faef2843ccba",
+          "name": "Gallery",
+          "type": "gallery"
+        }
+      ],
+      "name": "运动与健康",
+      "id": "bea5c9cd-0dc3-4de7-8905-3a133b5cb198"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Sources/Books/微信读书同步",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "aa893129-fed6-4db8-aec7-d159ffe31d66",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "name": "微信读书",
+      "id": "e20e8961-c1b7-44ba-974b-46c2ac839a29"
+    },
+    {
+      "fieldConfig": {
+        "使用或不用的原因": {
+          "richText": true
+        }
+      },
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": true,
+      "dataSource": {
+        "kind": "tag",
+        "config": {
+          "tag": "#macOS软件"
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "sortField": "name",
+            "sortAsc": true,
+            "fieldConfig": {
+              "path": {
+                "hide": true,
+                "width": 367
+              },
+              "database-plugin": {
+                "hide": true
+              },
+              "使用或不用的原因": {
+                "width": 333
+              },
+              "title": {
+                "hide": true
+              },
+              "name": {
+                "width": 194
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "使用频率",
+                "order": "desc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "c3b2cd5b-321c-45ca-9b5a-798039ad6351",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "f0094fdf-8a28-4612-9401-53c0673881da",
+      "name": "macOS软件"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Sources/Newsletter + RSS",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "width": 444
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "e2028cf3-a8fc-4502-b3c9-2d67bf7743a5",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "28735c20-ffbb-4c8b-b88e-2703b10f31b9",
+      "name": "Newsletter + RSS"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "dataview",
+        "config": {
+          "query": "table WITHOUT ID file.link AS \"File\",file.mtime as \"修改时间\"\nfrom #安卓软件 and #macOS软件"
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "3ec52283-2537-48a0-afca-d61e9141621b",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "21b0c625-8654-45a5-a7f7-0291ca0da113",
+      "name": "安卓和mac软件"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "tag",
+        "config": {
+          "tag": "#安卓软件"
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "width": 589
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "769f5445-29b3-49f2-ba9f-cdf025ff22cc",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "28ea2158-32f3-4f3d-ae02-8ebe9af49718",
+      "name": "安卓软件"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Spaces/1-Project/devops",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "width": 221
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "cf3fd157-fc71-450a-8e3c-97081678c9e0",
+          "name": "表格",
+          "type": "table"
+        }
+      ],
+      "id": "d3f9ecc4-ae82-4c90-b260-721d2b3c0f1f",
+      "name": "devops"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Spaces/4-Competence/1-yocto",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "e7bab4fb-618b-4b25-b657-b0e1b130c92b",
+          "name": "表格",
+          "type": "table"
+        }
+      ],
+      "id": "8c3dd30c-bde3-4a87-960f-58077fcb2244",
+      "name": "1-yocto"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Work/rws",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "width": 207
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "1e7c3fe0-ec02-4f2f-880e-a41cae2f20fb",
+          "name": "表格",
+          "type": "table"
+        }
+      ],
+      "id": "8c905bd6-32af-49bb-b623-f70f0e6df0f2",
+      "name": "rws"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Spaces/4-Tools",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "width": 180
+              },
+              "date created": {
+                "hide": true
+              },
+              "date modified": {
+                "hide": true
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "1d42ae29-bdb0-4777-bd71-51b66a448465",
+          "name": "表格",
+          "type": "table"
+        }
+      ],
+      "id": "941cc394-f61f-444a-91eb-179b9ca986f4",
+      "name": "4-Tools"
+    }
+  ],
+  "archives": [],
+  "preferences": {
+    "projectSizeLimit": 300,
+    "frontmatter": {
+      "quoteStrings": "QUOTE_DOUBLE"
+    },
+    "commands": [],
+    "linkBehavior": "open-editor"
+  }
+}

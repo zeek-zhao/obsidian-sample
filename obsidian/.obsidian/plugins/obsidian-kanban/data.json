@@ -1,0 +1,27 @@
+{
+  "new-note-folder": "Atlas/Kanban",
+  "new-note-template": "Extras/Templates/看板-模版.md",
+  "tag-colors": [
+    {
+      "tagKey": "TO DO",
+      "color": "rgba(250, 137, 191, 1)",
+      "backgroundColor": "rgba(138, 92, 245, 0.1)"
+    },
+    {
+      "tagKey": "PROGRESS",
+      "color": "rgba(248, 250, 137, 1)",
+      "backgroundColor": "rgba(138, 92, 245, 0.1)"
+    },
+    {
+      "tagKey": "CHECKED",
+      "color": "rgba(143, 250, 137, 1)",
+      "backgroundColor": ""
+    },
+    {
+      "tagKey": "DONE",
+      "color": "rgba(250, 137, 137, 1)",
+      "backgroundColor": ""
+    }
+  ],
+  "archive-with-date": true
+}

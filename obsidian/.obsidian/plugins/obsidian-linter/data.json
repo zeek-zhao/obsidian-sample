@@ -21,7 +21,7 @@
       "tag-key": true,
       "default-array-style": "single-line",
       "default-array-keys": true,
-      "force-single-line-array-style": "data\nupdated",
+      "force-single-line-array-style": "data created\ndata modified",
       "force-multi-line-array-style": ""
     },
     "insert-yaml-attributes": {
@@ -46,9 +46,9 @@
     "yaml-timestamp": {
       "enabled": true,
       "date-created": true,
-      "date-created-key": "date",
+      "date-created-key": "date created",
       "date-modified": true,
-      "date-modified-key": "updated",
+      "date-modified-key": "date modified",
       "format": "YYYY-MM-DD",
       "date-created-source-of-truth": "file system",
       "date-modified-source-of-truth": "file system",
@@ -56,7 +56,7 @@
       "update-on-file-contents-updated": "never"
     },
     "yaml-title": {
-      "enabled": true,
+      "enabled": false,
       "title-key": "title",
       "mode": "first-h1-or-filename-if-h1-missing"
     },
@@ -92,7 +92,8 @@
       "enabled": true
     },
     "move-footnotes-to-the-bottom": {
-      "enabled": true
+      "enabled": true,
+      "include-blank-line-between-footnotes": false
     },
     "re-index-footnotes": {
       "enabled": false
@@ -120,7 +121,7 @@
       "list-end-style": "."
     },
     "proper-ellipsis": {
-      "enabled": false
+      "enabled": true
     },
     "remove-consecutive-list-markers": {
       "enabled": true
@@ -190,11 +191,11 @@
       "enabled": true
     },
     "remove-space-around-characters": {
-      "enabled": true,
+      "enabled": false,
       "include-fullwidth-forms": true,
       "include-cjk-symbols-and-punctuation": true,
-      "include-dashes": false,
-      "other-symbols": ""
+      "include-dashes": true,
+      "other-symbols": "[]*"
     },
     "space-after-list-markers": {
       "enabled": true
@@ -206,7 +207,7 @@
     },
     "trailing-spaces": {
       "enabled": true,
-      "two-space-line-break": false
+      "two-space-line-break": true
     },
     "add-blockquote-indentation-on-paste": {
       "enabled": true
@@ -277,19 +278,15 @@
   "lintOnSave": true,
   "recordLintOnSaveLogs": false,
   "displayChanged": true,
-  "lintOnFileChange": false,
+  "suppressMessageWhenNoChange": false,
+  "lintOnFileChange": true,
   "displayLintOnFileChangeNotice": true,
   "settingsConvertedToConfigKeyValues": true,
+  "additionalFileExtensions": [],
   "foldersToIgnore": [
-    "99-模板/笔记模板"
+    "Extras/Templates"
   ],
-  "filesToIgnore": [
-    {
-      "label": "CHANGELOG.md",
-      "match": "CHANGELOG.md",
-      "flags": "i"
-    }
-  ],
+  "filesToIgnore": [],
   "linterLocale": "zh-cn",
   "logLevel": "ERROR",
   "lintCommands": [],
